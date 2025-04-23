@@ -114,7 +114,8 @@ h6 {
 fieldset {
   padding: 4vh 5vh;
   margin-bottom: 4vh;
-  border: 1px solid black;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .form-row {
@@ -133,4 +134,16 @@ fieldset {
 .inputcontainer {
   flex-grow: 1;
   margin-right: 40px;
+}
+
+.button-container {
+  margin-left: 50px;
+}
+
+.button-container button {
+  padding: 5px 60px;
+  background: pink;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
