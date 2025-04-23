@@ -69,15 +69,6 @@ h6 {
 
 /* css reset end line */
 
-.aside-container img {
-  max-width: 100%;
-  height: auto;
-}
-.aside-container {
-  height: auto;
-  max-width: 34.8vw;
-}
-
 .display-flex {
   display: flex;
 }
@@ -90,8 +81,8 @@ h6 {
   justify-content: center;
 }
 
-.flex-items-center {
-  align-items: stretch;
+.flex-items-start {
+  align-items: start;
 }
 
 .flex-grow-1 {
@@ -100,4 +91,46 @@ h6 {
 
 .flex-grow-3 {
   flex-grow: 3;
+}
+
+.flex-gap {
+  gap: 30px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.aside-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.aside-container {
+  height: auto;
+  max-width: 34.8vw;
+}
+
+fieldset {
+  padding: 4vh 5vh;
+  margin-bottom: 4vh;
+  border: 1px solid black;
+}
+
+.form-row {
+  width: 90%;
+  display: flex;
+}
+
+.inputcontainer label {
+  display: block;
+}
+
+.inputcontainer input {
+  width: 70%;
+}
+
+.inputcontainer {
+  flex-grow: 1;
+  margin-right: 40px;
 }

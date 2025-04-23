@@ -14,8 +14,10 @@
       <aside class="aside-container flex-grow-1">
         <img src="/assets/img/sakura.jpg" alt="aside-img" />
       </aside>
-      <section class="flex-grow-3 flex-direction-col flex-content-center">
-        <div class="flex-grow-1">
+      <section
+        class="flex-grow-3 form-container display-flex flex-direction-col flex-content-center"
+      >
+        <div class="paragraph-row flex-grow-1">
           <p>
             This is not a real online service! you know you need something like
             this in your life to help you realize your deepest dreams. sign up
@@ -25,36 +27,48 @@
         <div class="flex-grow-1">
           <form action="/senddatalocation" method="post">
             <fieldset
-              class="display-flex flex-direction-col flex-content-center flex-items-center"
+              class="display-flex flex-direction-col flex-content-center flex-items-start flex-gap flex-wrap"
             >
               <legend>Let's do this!</legend>
-              <div class="form-row">
-                <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="first-name" />
-                <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name" />
+              <div class="form-row flex-content-spaceround">
+                <div class="inputcontainer">
+                  <label for="first-name">First Name</label>
+                  <input type="text" id="first-name" name="first-name" />
+                </div>
+                <div class="inputcontainer">
+                  <label for="last-name">Last Name</label>
+                  <input type="text" id="last-name" name="last-name" />
+                </div>
+              </div>
+              <div class="form-row flex-content-spaceround">
+                <div class="inputcontainer">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" />
+                </div>
+                <div class="inputcontainer">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone-number" />
+                </div>
               </div>
               <div class="form-row">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" />
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone-number" />
-              </div>
-              <div class="form-row">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" />
-                <label for="confirm-password">Confirm Password</label>
-                <input
-                  type="password"
-                  id="confirm-password"
-                  name="confirm-password"
-                />
+                <div class="inputcontainer">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password" />
+                </div>
+                <div class="inputcontainer">
+                  <label for="confirm-password">Confirm Password</label>
+                  <input
+                    type="password"
+                    id="confirm-password"
+                    name="confirm-password"
+                  />
+                </div>
               </div>
             </fieldset>
-            <div class="form-row">
+            <div class="button-container">
               <button type="submit">Create Account</button>
             </div>
-            <div class="form-row">
+            <div class="login-">
               <p>Already have an account? <a href="/loginpage">Login</a></p>
             </div>
           </form>
