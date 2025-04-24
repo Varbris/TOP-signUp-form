@@ -101,35 +101,33 @@ h6 {
   flex-wrap: wrap;
 }
 
-.aside-container img {
-  max-width: 100%;
-  height: auto;
-}
-
 .aside-container {
   height: auto;
   max-width: 34.8vw;
 }
 
-.aside-container img[class="odin-logo"] {
-  position: relative;
-  width: 7vw;
+.aside-container img[class="aside-img"] {
+  max-width: 100%;
+  height: auto;
+}
+
+.aside-container .odin-logo-container img[class="odin-logo"] {
+  width: 50px;
 }
 .aside-container .odin-logo-container {
-  background: pink;
-  width: 68vh;
-  position: absolute;
-  top: 32vh;
-  padding: 3vw 1vw;
-
+  background: rgba(255, 192, 192, 1);
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 36vh;
+  padding: 2vh 9vw;
 }
 
 .aside-container .odin-logo-container p {
   color: white;
-  font-size: 4vw;
+  font-size: 5em;
 }
 
 fieldset {
@@ -142,6 +140,19 @@ fieldset {
 .form-row {
   width: 90%;
   display: flex;
+}
+
+.form-container .paragraph-row {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.form-container .paragraph-row p {
+  position: relative;
+  top: 9vh;
+  padding-left: 5vw;
+  padding-right: 8vw;
+  font-size: 2rem;
 }
 
 .inputcontainer label {
@@ -163,7 +174,7 @@ fieldset {
 
 .button-container button {
   padding: 5px 60px;
-  background: pink;
+  background: rgba(255, 192, 192, 1);
   border: none;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
