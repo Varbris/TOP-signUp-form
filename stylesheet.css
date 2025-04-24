@@ -142,7 +142,7 @@ body {
   justify-content: center;
   position: absolute;
   top: 39vh;
-  padding: 3vh 11vw;
+  padding: 3vh 10vw;
 }
 
 .aside-container .odin-logo-container p {
@@ -196,9 +196,21 @@ fieldset {
 }
 
 .button-container button {
-  padding: 5px 60px;
+  margin-bottom: 30px;
+  padding: 10px 70px;
   background: rgba(255, 192, 192, 1);
   border: none;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer p {
+  position: absolute;
+  top: 97%;
+  color: white;
+  background: rgba(255, 183, 183, 0.5);
+}
+
+footer p a {
+  color: white;
 }
