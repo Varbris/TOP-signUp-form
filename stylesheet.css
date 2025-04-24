@@ -111,6 +111,27 @@ h6 {
   max-width: 34.8vw;
 }
 
+.aside-container img[class="odin-logo"] {
+  position: relative;
+  width: 7vw;
+}
+.aside-container .odin-logo-container {
+  background: pink;
+  width: 68vh;
+  position: absolute;
+  top: 32vh;
+  padding: 3vw 1vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-container .odin-logo-container p {
+  color: white;
+  font-size: 4vw;
+}
+
 fieldset {
   padding: 4vh 5vh;
   margin-bottom: 4vh;
