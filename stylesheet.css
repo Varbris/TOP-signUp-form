@@ -69,6 +69,25 @@ h6 {
 
 /* css reset end line */
 
+@font-face {
+  font-family: "Roboto";
+  src: url(/assets/font/Roboto/roboto-variablefont.ttf);
+}
+
+@font-face {
+  font-family: "Sawarabi";
+  src: url(/assets/font/Sawarabi_Mincho/SawarabiMincho-Regular.ttf);
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url(/assets/font/Noto_Serif_JP/NotoSerifJP-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: "NotoSerif", Georgia, "Times New Roman", Times, serif;
+}
+
 .display-flex {
   display: flex;
 }
@@ -115,14 +134,15 @@ h6 {
   width: 50px;
 }
 .aside-container .odin-logo-container {
+  font-family: "Sawarabi", Georgia, "Times New Roman", Times, serif !important;
   background: rgba(255, 192, 192, 1);
   width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 36vh;
-  padding: 2vh 9vw;
+  top: 39vh;
+  padding: 3vh 11vw;
 }
 
 .aside-container .odin-logo-container p {
@@ -142,14 +162,17 @@ fieldset {
   display: flex;
 }
 
-.form-container .paragraph-row {
+.paragraph-row {
   margin: 0;
   padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding-top: 4vh;
 }
 
-.form-container .paragraph-row p {
-  position: relative;
-  top: 9vh;
+.paragraph-row p {
   padding-left: 5vw;
   padding-right: 8vw;
   font-size: 2rem;
