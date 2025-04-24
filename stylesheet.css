@@ -131,7 +131,8 @@ body {
 }
 
 .aside-container .odin-logo-container img[class="odin-logo"] {
-  width: 50px;
+  width: 120px;
+  margin-right: 15px;
 }
 .aside-container .odin-logo-container {
   font-family: "Sawarabi", Georgia, "Times New Roman", Times, serif !important;
@@ -142,12 +143,16 @@ body {
   justify-content: center;
   position: absolute;
   top: 39vh;
-  padding: 3vh 10vw;
+  padding: 3vh 8vw;
 }
 
 .aside-container .odin-logo-container p {
   color: white;
-  font-size: 5em;
+  font-size: 4vw;
+}
+
+.form-container fieldset h2 {
+  font-weight: 800;
 }
 
 fieldset {
@@ -162,6 +167,10 @@ fieldset {
   display: flex;
 }
 
+.form-row .inputcontainer {
+  font-weight: 600;
+}
+
 .paragraph-row {
   margin: 0;
   padding-bottom: 0;
@@ -173,9 +182,11 @@ fieldset {
 }
 
 .paragraph-row p {
-  padding-left: 5vw;
+  padding-left: 2.5vw;
   padding-right: 8vw;
-  font-size: 2rem;
+  padding-top: 2vh;
+  font-size: 1.5vw;
+  font-weight: 800;
 }
 
 .inputcontainer label {
@@ -202,6 +213,17 @@ fieldset {
   border: none;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
+  font-weight: 600;
+}
+
+.button-container p {
+  font-weight: 500;
+}
+
+.button-container p a {
+  text-decoration: none;
+  color: rgba(255, 183, 183, 1);
 }
 
 footer p {
