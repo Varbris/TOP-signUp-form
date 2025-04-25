@@ -195,6 +195,31 @@ fieldset {
 
 .inputcontainer input {
   width: 70%;
+  border: 1px solid pink;
+  border-radius: 2px;
+}
+
+.inputcontainer input:focus {
+  outline: 2px solid rgba(255, 168, 168, 0.986);
+  border: none;
+  box-shadow: rgba(255, 168, 168, 0.986) 0px 3px 12px;
+}
+
+.inputcontainer input[type="email"]:invalid {
+  outline: 2px solid red;
+  color: red;
+  box-shadow: none;
+}
+.inputcontainer input[type="password"]:invalid {
+  outline: 2px solid red;
+  color: red;
+  box-shadow: none;
+}
+
+.inputcontainer input[type="tel"]:invalid {
+  outline: 2px solid red;
+  color: red;
+  box-shadow: none;
 }
 
 .inputcontainer {
@@ -215,6 +240,14 @@ fieldset {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   color: white;
   font-weight: 600;
+}
+
+.button-container button:hover {
+  background: rgb(255, 128, 128);
+}
+
+.button-container button:active {
+  background: rgba(255, 192, 192, 0.7);
 }
 
 .button-container p {
