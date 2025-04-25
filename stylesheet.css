@@ -173,12 +173,12 @@ fieldset {
 
 .paragraph-row {
   margin: 0;
-  padding-bottom: 0;
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 10px;
   padding-top: 4vh;
+  background-color: #f7fdffbe;
 }
 
 .paragraph-row p {
@@ -197,29 +197,7 @@ fieldset {
   width: 70%;
   border: 1px solid pink;
   border-radius: 2px;
-}
-
-.inputcontainer input:focus {
-  outline: 2px solid rgba(255, 168, 168, 0.986);
-  border: none;
-  box-shadow: rgba(255, 168, 168, 0.986) 0px 3px 12px;
-}
-
-.inputcontainer input[type="email"]:invalid {
-  outline: 2px solid red;
-  color: red;
-  box-shadow: none;
-}
-.inputcontainer input[type="password"]:invalid {
-  outline: 2px solid red;
-  color: red;
-  box-shadow: none;
-}
-
-.inputcontainer input[type="tel"]:invalid {
-  outline: 2px solid red;
-  color: red;
-  box-shadow: none;
+  outline: none;
 }
 
 .inputcontainer {
@@ -242,14 +220,6 @@ fieldset {
   font-weight: 600;
 }
 
-.button-container button:hover {
-  background: rgb(255, 128, 128);
-}
-
-.button-container button:active {
-  background: rgba(255, 192, 192, 0.7);
-}
-
 .button-container p {
   font-weight: 500;
 }
@@ -268,4 +238,39 @@ footer p {
 
 footer p a {
   color: white;
+}
+
+.button-container button:hover {
+  background: rgb(255, 128, 128);
+}
+
+.button-container button:active {
+  background: rgba(255, 192, 192, 0.7);
+}
+
+.inputcontainer input:focus {
+  border: 2px solid rgba(255, 168, 168, 0.986);
+  box-shadow: rgba(255, 168, 168, 0.986) 0px 3px 12px;
+}
+
+.inputcontainer input[type="email"]:invalid {
+  border: 2px solid red;
+  color: red;
+  box-shadow: none;
+}
+
+.inputcontainer input[type="email"]:focus:valid {
+  background: rgba(224, 251, 226, 0.9);
+}
+
+.inputcontainer input[type="password"]:invalid {
+  border: 2px solid red;
+  color: red;
+  box-shadow: none;
+}
+
+.inputcontainer input[type="tel"]:invalid {
+  border: 2px solid red;
+  color: red;
+  box-shadow: none;
 }
