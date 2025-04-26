@@ -120,6 +120,10 @@ body {
   flex-wrap: wrap;
 }
 
+section {
+  background-color: rgba(255, 192, 192, 0.15);
+}
+
 .aside-container {
   height: auto;
   max-width: 34.8vw;
@@ -151,6 +155,13 @@ body {
   font-size: 4vw;
 }
 
+.form-container {
+  background-color: white;
+}
+.form-container form {
+  background-color: white;
+}
+
 .form-container fieldset h2 {
   font-weight: 800;
 }
@@ -178,7 +189,6 @@ fieldset {
   justify-content: center;
   flex-direction: column;
   padding-top: 4vh;
-  background-color: #f7fdffbe;
 }
 
 .paragraph-row p {
@@ -269,8 +279,16 @@ footer p a {
   box-shadow: none;
 }
 
+.inputcontainer input[type="password"]:focus:valid {
+  background: rgba(224, 251, 226, 0.9);
+}
+
 .inputcontainer input[type="tel"]:invalid {
   border: 2px solid red;
   color: red;
   box-shadow: none;
+}
+
+.inputcontainer input[type="tel"]:focus:valid {
+  background: rgba(224, 251, 226, 0.9);
 }

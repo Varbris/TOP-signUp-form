@@ -73,6 +73,9 @@
                     id="phone"
                     name="phone-number"
                     placeholder="(+countryCode)812314752"
+                    pattern="^\d{11,13}$"
+                    maxlength="13"
+                    max="13"
                   />
                 </div>
               </div>
@@ -83,7 +86,12 @@
                     type="password"
                     id="password"
                     name="password"
-                    pattern="[0-9]"
+                    pattern="^.{8,20}$"
+                    maxlength="20"
+                    minlength="8"
+                    min="8"
+                    ;
+                    max="21"
                   />
                 </div>
                 <div class="inputcontainer">
@@ -92,6 +100,12 @@
                     type="password"
                     id="confirm-password"
                     name="confirm-password"
+                    pattern="^.{8,20}$"
+                    maxlength="20"
+                    minlength="8"
+                    min="8"
+                    ;
+                    max="21"
                   />
                 </div>
               </div>
