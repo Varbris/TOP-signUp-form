@@ -71,17 +71,17 @@ h6 {
 
 @font-face {
   font-family: "Roboto";
-  src: url(/assets/font/Roboto/roboto-variablefont.ttf);
+  src: url(assets/font/Roboto/roboto-variablefont.ttf);
 }
 
 @font-face {
   font-family: "Sawarabi";
-  src: url(/assets/font/Sawarabi_Mincho/SawarabiMincho-Regular.ttf);
+  src: url(assets/font/Sawarabi_Mincho/SawarabiMincho-Regular.ttf);
 }
 
 @font-face {
   font-family: "NotoSerif";
-  src: url(/assets/font/Noto_Serif_JP/NotoSerifJP-VariableFont_wght.ttf);
+  src: url(assets/font/Noto_Serif_JP/NotoSerifJP-VariableFont_wght.ttf);
 }
 
 body {
